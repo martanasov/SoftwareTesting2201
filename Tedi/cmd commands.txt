@@ -1,0 +1,300 @@
+14.07.2009 ã.  05:20    <DIR>          PerfLogs
+24.01.2019 ã.  16:26    <DIR>          Program Files
+24.01.2019 ã.  18:57    <DIR>          Program Files (x86)
+08.02.2013 ã.  16:27    <DIR>          SWSetup
+07.09.2014 ã.  17:41    <DIR>          Users
+30.06.2018 ã.  14:14    <DIR>          Windows
+               1 File(s)              0 bytes
+              10 Dir(s)  123 111 583 744 bytes free
+
+C:\>cd users
+
+C:\Users>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 5C1D-9FD0
+
+ Directory of C:\Users
+
+07.09.2014 ã.  17:41    <DIR>          .
+07.09.2014 ã.  17:41    <DIR>          ..
+24.01.2019 ã.  21:46    <DIR>          computer new
+14.07.2009 ã.  09:45    <DIR>          Public
+08.06.2018 ã.  21:30    <DIR>          TEMP
+               0 File(s)              0 bytes
+               5 Dir(s)  123 111 272 448 bytes free
+
+C:\Users>cd computer new
+
+C:\Users\computer new>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 5C1D-9FD0
+
+ Directory of C:\Users\computer new
+
+24.01.2019 ã.  21:46    <DIR>          .
+24.01.2019 ã.  21:46    <DIR>          ..
+24.01.2019 ã.  20:48               118 .bash_history
+28.10.2016 ã.  23:11    <DIR>          .cisco
+24.01.2019 ã.  21:46                96 .gitconfig
+21.11.2018 ã.  12:10    <DIR>          Contacts
+30.06.2018 ã.  14:27    <DIR>          Creative Cloud Files
+24.01.2019 ã.  21:05    <DIR>          Desktop
+21.11.2018 ã.  12:10    <DIR>          Documents
+21.11.2018 ã.  12:10    <DIR>          Downloads
+21.11.2018 ã.  12:10    <DIR>          Favorites
+19.01.2019 ã.  21:20    <DIR>          iCloudDrive
+19.01.2019 ã.  21:24    <DIR>          Links
+21.11.2018 ã.  12:10    <DIR>          Music
+20.01.2019 ã.  00:31    <DIR>          New folder
+21.11.2018 ã.  12:10    <DIR>          Pictures
+21.11.2018 ã.  12:10    <DIR>          Saved Games
+21.11.2018 ã.  12:10    <DIR>          Searches
+09.10.2015 ã.  15:11    <DIR>          Tracing
+21.11.2018 ã.  12:10    <DIR>          Videos
+21.11.2018 ã.  12:10    <DIR>          Virtual Machines
+               2 File(s)            214 bytes
+              19 Dir(s)  123 110 756 352 bytes free
+
+C:\Users\computer new>cd desktop
+
+C:\Users\computer new\Desktop>mkdir "Theodora Kondova"
+
+C:\Users\computer new\Desktop>cd theodora kondova
+
+C:\Users\computer new\Desktop\Theodora Kondova>mkdir "Home test"
+
+C:\Users\computer new\Desktop\Theodora Kondova>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 5C1D-9FD0
+
+ Directory of C:\Users\computer new\Desktop\Theodora Kondova
+
+25.01.2019 ã.  16:23    <DIR>          .
+25.01.2019 ã.  16:23    <DIR>          ..
+25.01.2019 ã.  16:23    <DIR>          Home test
+               0 File(s)              0 bytes
+               3 Dir(s)  123 086 450 688 bytes free
+
+C:\Users\computer new\Desktop\Theodora Kondova>cd home test
+
+C:\Users\computer new\Desktop\Theodora Kondova\Home test>git init
+Initialized empty Git repository in C:/Users/computer new/Desktop/Theodora Kondo
+va/Home test/.git/
+
+C:\Users\computer new\Desktop\Theodora Kondova\Home test>git clone https://githu
+b.com/martanasov/SoftwareTesting2201.git
+Cloning into 'SoftwareTesting2201'...
+remote: Enumerating objects: 156, done.
+remote: Counting objects: 100% (156/156), done.
+remote: Compressing objects: 100% (100/100), done.
+remote: Total 156 (delta 52), reused 134 (delta 30), pack-reused 0
+Receiving objects: 100% (156/156), 2.89 MiB | 3.41 MiB/s, done.
+Resolving deltas: 100% (52/52), done.
+
+C:\Users\computer new\Desktop\Theodora Kondova\Home test>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 5C1D-9FD0
+
+ Directory of C:\Users\computer new\Desktop\Theodora Kondova\Home test
+
+25.01.2019 ã.  16:25    <DIR>          .
+25.01.2019 ã.  16:25    <DIR>          ..
+25.01.2019 ã.  16:25    <DIR>          SoftwareTesting2201
+               0 File(s)              0 bytes
+               3 Dir(s)  123 079 725 056 bytes free
+
+C:\Users\computer new\Desktop\Theodora Kondova\Home test>cd SoftwareTesting2201
+
+C:\Users\computer new\Desktop\Theodora Kondova\Home test\SoftwareTesting2201>dir
+
+ Volume in drive C has no label.
+ Volume Serial Number is 5C1D-9FD0
+
+ Directory of C:\Users\computer new\Desktop\Theodora Kondova\Home test\SoftwareT
+esting2201
+
+25.01.2019 ã.  16:25    <DIR>          .
+25.01.2019 ã.  16:25    <DIR>          ..
+25.01.2019 ã.  16:25             6 148 .DS_Store
+25.01.2019 ã.  16:25    <DIR>          boyan1606
+25.01.2019 ã.  16:25    <DIR>          Eros
+25.01.2019 ã.  16:25    <DIR>          GeorgiDjenkov
+25.01.2019 ã.  16:25    <DIR>          Home1
+25.01.2019 ã.  16:25    <DIR>          Homework
+25.01.2019 ã.  16:25    <DIR>          Ivan Mitrev
+25.01.2019 ã.  16:25    <DIR>          Julieta Ivanova
+25.01.2019 ã.  16:25    <DIR>          Lyubo
+25.01.2019 ã.  16:25    <DIR>          Martin Atanasov
+25.01.2019 ã.  16:25    <DIR>          metodi
+25.01.2019 ã.  16:25    <DIR>          Nikolay Nikolov
+25.01.2019 ã.  16:25    <DIR>          Plamen Debreliev
+25.01.2019 ã.  16:25    <DIR>          Rumen Maslarski
+25.01.2019 ã.  16:25    <DIR>          stoichkov
+25.01.2019 ã.  16:25    <DIR>          Tedi
+25.01.2019 ã.  16:25    <DIR>          Vladimir Yolov
+25.01.2019 ã.  16:25    <DIR>          Zdravka Mollova
+               1 File(s)          6 148 bytes
+              19 Dir(s)  123 081 293 824 bytes free
+
+C:\Users\computer new\Desktop\Theodora Kondova\Home test\SoftwareTesting2201>cd
+tedi
+
+C:\Users\computer new\Desktop\Theodora Kondova\Home test\SoftwareTesting2201\Ted
+i>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 5C1D-9FD0
+
+ Directory of C:\Users\computer new\Desktop\Theodora Kondova\Home test\SoftwareT
+esting2201\Tedi
+
+25.01.2019 ã.  16:25    <DIR>          .
+25.01.2019 ã.  16:25    <DIR>          ..
+25.01.2019 ã.  16:25                 5 Test.txt
+               1 File(s)              5 bytes
+               2 Dir(s)  123 083 751 424 bytes free
+
+C:\Users\computer new\Desktop\Theodora Kondova\Home test\SoftwareTesting2201\Ted
+i>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\computer new\Desktop\Theodora Kondova\Home test\SoftwareTesting2201\Ted
+i>cd..
+
+C:\Users\computer new\Desktop\Theodora Kondova\Home test\SoftwareTesting2201>cd.
+.
+
+C:\Users\computer new\Desktop\Theodora Kondova\Home test>cd..
+
+C:\Users\computer new\Desktop\Theodora Kondova>git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> master
+
+
+C:\Users\computer new\Desktop\Theodora Kondova>git status
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ../../.bash_history
+        ../../.cisco/
+        ../../.gitconfig
+        ../../AppData/
+        ../../Contacts/
+        ../../Creative Cloud Files/
+        ../
+        ../../Documents/
+        ../../Downloads/
+        ../../Favorites/
+        ../../Links/
+        ../../Music/
+        ../../NTUSER.DAT{016888bc-6c6f-11de-8d1d-001e0bcde3ec}.TxR.0.regtrans-ms
+
+        ../../NTUSER.DAT{016888bc-6c6f-11de-8d1d-001e0bcde3ec}.TxR.1.regtrans-ms
+
+        ../../NTUSER.DAT{016888bc-6c6f-11de-8d1d-001e0bcde3ec}.TxR.2.regtrans-ms
+
+        ../../NTUSER.DAT{016888bc-6c6f-11de-8d1d-001e0bcde3ec}.TxR.blf
+        ../../NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+        ../../NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer000000
+00000000000001.regtrans-ms
+        ../../NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer000000
+00000000000002.regtrans-ms
+        ../../Pictures/
+        ../../Saved Games/
+        ../../Searches/
+        ../../Tracing/
+        ../../Videos/
+        ../../Virtual Machines/
+        ../../iCloudDrive/
+        ../../ntuser.dat
+        ../../ntuser.dat.LOG1
+        ../../ntuser.dat.LOG2
+        ../../ntuser.dat{18b1b7e8-2ab0-11e7-9a1c-b888e3ebdd97}.TM.blf
+        ../../ntuser.dat{18b1b7e8-2ab0-11e7-9a1c-b888e3ebdd97}.TMContainer000000
+00000000000001.regtrans-ms
+        ../../ntuser.dat{18b1b7e8-2ab0-11e7-9a1c-b888e3ebdd97}.TMContainer000000
+00000000000002.regtrans-ms
+        ../../ntuser.ini
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\computer new\Desktop\Theodora Kondova>git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+C:\Users\computer new\Desktop\Theodora Kondova>git add .
+warning: adding embedded git repository: Desktop/Theodora Kondova/Home test/Soft
+wareTesting2201
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> Desktop/Theodora Kondova/Home test/SoftwareTesti
+ng2201
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached Desktop/Theodora Kondova/Home test/SoftwareTesting2201
+hint:
+hint: See "git help submodule" for more information.
+
+C:\Users\computer new\Desktop\Theodora Kondova>git commit "homework"
+error: pathspec 'homework' did not match any file(s) known to git
+
+C:\Users\computer new\Desktop\Theodora Kondova>git commit -m "homework"
+[master (root-commit) 1f09467] homework
+ 1 file changed, 1 insertion(+)
+ create mode 160000 Desktop/Theodora Kondova/Home test/SoftwareTesting2201
+
+C:\Users\computer new\Desktop\Theodora Kondova>git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> master
+
+
+C:\Users\computer new\Desktop\Theodora Kondova>cd "Home test"
+
+C:\Users\computer new\Desktop\Theodora Kondova\Home test>git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> master
+
+
+C:\Users\computer new\Desktop\Theodora Kondova\Home test>git push
