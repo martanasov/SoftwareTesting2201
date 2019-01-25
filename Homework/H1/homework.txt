@@ -13,7 +13,7 @@ C:\Users\GR8NESS\SoftwareTesting2201>cd Homework
 
 C:\Users\GR8NESS\SoftwareTesting2201\Homework>md H1 H2 H3 
 
-md - Georgi Djenkov 1979
+md - ????????? ?? ????????? X ?????
 
 C:\Users\GR8NESS\SoftwareTesting2201\Homework>git pull
 
