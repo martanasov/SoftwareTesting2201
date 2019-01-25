@@ -1,1 +1,8 @@
-Homework
+C:\>
+C:\>cd users
+
+C:\Users>cd my
+
+C:\Users\my>cd desktop
+
+C:\Users\my\Desktop>cd softwaretesting2201
