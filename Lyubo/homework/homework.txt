@@ -1,0 +1,18 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\LYUBO>cd desktop
+
+C:\Users\LYUBO\Desktop>mkdir homework
+
+C:\Users\LYUBO\Desktop>cd homework
+
+C:\Users\LYUBO\Desktop\homework>mkdir homework2
+
+C:\Users\LYUBO\Desktop\homework>cd homework2
+
+C:\Users\LYUBO\Desktop\homework\homework2>cd..
+
+C:\Users\LYUBO\Desktop\homework>rd homework2
+
+C:\Users\LYUBO\Desktop\homework>
