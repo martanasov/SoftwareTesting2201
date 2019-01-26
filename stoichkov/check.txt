@@ -1,9 +1,7 @@
-Admin@Admin-PC MINGW64 ~/SoftwareTesting2201 (master)
-$ git log --pretty
-commit ea9203027a228e33779144ba6021ee885e723b4e (HEAD -> master, origin/master, origin/HEAD)
-Author: istoichkov85 <iliyan_stoichkov@gbg.bg>
-Date:   Fri Jan 25 23:47:51 2019 +0200
-
-    Let it be metal
-
-
++Author: istoichkov85 <iliyan_stoichkov@gbg.bg>
++Date:   Fri Jan 25 23:47:51 2019 +0200
++
++    Let it be metal
++
++ stoichkov/home.txt | 5 +++++
++ 1 file changed, 5 insertions(+)
