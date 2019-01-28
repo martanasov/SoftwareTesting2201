@@ -1,5 +1,3 @@
-C:\Users\my>cd desktop
-
 C:\Users\my\Desktop>cd softwaretesting2201
 
 C:\Users\my\Desktop\SoftwareTesting2201>git pull
