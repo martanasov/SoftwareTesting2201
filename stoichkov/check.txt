@@ -1,0 +1,7 @@
++Author: istoichkov85 <iliyan_stoichkov@gbg.bg>
++Date:   Fri Jan 25 23:47:51 2019 +0200
++
++    Let it be metal
++
++ stoichkov/home.txt | 5 +++++
++ 1 file changed, 5 insertions(+)
