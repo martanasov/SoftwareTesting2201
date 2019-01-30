@@ -1,9 +1,0 @@
-CD "derectory"
-Type in the MKDIR command to create a directory or folder
-
-
-Create Multiple Folders Using CMD
-
-Type in the MD command, followed by the names of the folders that you want to create. 
-In this case, we want to create four folders named "X" "Y" "Z" "I"
-
