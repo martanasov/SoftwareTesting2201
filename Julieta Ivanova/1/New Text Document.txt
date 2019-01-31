@@ -1,0 +1,88 @@
+
+C:\Users\Julieta\Desktop\JGT\SoftwareTesting2201>git clone https://github.com/martanasov/SoftwareTesting2201.git
+Cloning into 'SoftwareTesting2201'...
+remote: Enumerating objects: 19, done.
+remote: Counting objects: 100% (19/19), done.
+remote: Compressing objects: 100% (13/13), done.
+remote: Total 308 (delta 4), reused 17 (delta 2), pack-reused 289
+Receiving objects: 100% (308/308), 7.19 MiB | 5.41 MiB/s, done.
+Resolving deltas: 100% (86/86), done.
+
+C:\Users\Julieta\Desktop\JGT\SoftwareTesting2201>dir
+ Volume in drive C has no label.
+ Volume Serial Number is BCD6-5C9B
+
+ Directory of C:\Users\Julieta\Desktop\JGT\SoftwareTesting2201
+
+01/28/2019  10:51 PM    <DIR>          .
+01/28/2019  10:51 PM    <DIR>          ..
+01/28/2019  10:44 PM    <DIR>          boyan1606
+01/28/2019  10:44 PM    <DIR>          GeorgiDjenkov
+01/28/2019  10:44 PM    <DIR>          hello
+01/28/2019  10:44 PM    <DIR>          Ivan Mitrev
+01/28/2019  10:51 PM    <DIR>          Julieta Ivanova
+01/28/2019  10:44 PM    <DIR>          Lyubo
+01/28/2019  10:44 PM    <DIR>          Mariana
+01/28/2019  10:44 PM    <DIR>          Metodi Paskalev
+01/28/2019  10:44 PM    <DIR>          Ne
+01/28/2019  10:44 PM    <DIR>          Nikolay Nikolov
+01/28/2019  10:50 PM    <DIR>          SoftwareTesting2201
+01/28/2019  10:44 PM    <DIR>          stoichkov
+01/28/2019  10:44 PM    <DIR>          Zdravka Mollova
+               0 File(s)              0 bytes
+              15 Dir(s)  213,835,137,024 bytes free
+
+C:\Users\Julieta\Desktop\JGT\SoftwareTesting2201>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   SoftwareTesting2201 (new commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Julieta Ivanova/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Julieta\Desktop\JGT\SoftwareTesting2201>git add .
+
+C:\Users\Julieta\Desktop\JGT\SoftwareTesting2201>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Julieta Ivanova/CMD.docx
+        modified:   SoftwareTesting2201
+
+
+C:\Users\Julieta\Desktop\JGT\SoftwareTesting2201>git commit -m "cmd"
+[master 16434cc] cmd
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ create mode 100644 Julieta Ivanova/CMD.docx
+
+C:\Users\Julieta\Desktop\JGT\SoftwareTesting2201>git push
+Username for 'https://github.com': jgtjgtjgt89
+Password for 'https://jgtjgtjgt89@github.com':
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 11.09 KiB | 11.09 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/martanasov/SoftwareTesting2201.git
+   9222cfc..16434cc  master -> master
+
+C:\Users\Julieta\Desktop\JGT\SoftwareTesting2201>git push
+Username for 'https://github.com': fatal: could not read Username for 'https://github.com': No error
+
+C:\Users\Julieta\Desktop\JGT\SoftwareTesting2201>
+
+C:\Users\Julieta\Desktop\JGT\SoftwareTesting2201>
