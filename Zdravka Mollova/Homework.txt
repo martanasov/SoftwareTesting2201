@@ -1,0 +1,23 @@
+Microsoft Windows [Version 10.0.17134.523]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\Здравка>cd desktop
+
+C:\Users\Здравка\Desktop>mkdir Homework
+
+C:\Users\Здравка\Desktop>cd Homework
+
+C:\Users\Здравка\Desktop\Homework>mkdir Skillo
+
+C:\Users\Здравка\Desktop\Homework>cd Skillo
+
+C:\Users\Здравка\Desktop\Homework\Skillo>cd..
+
+C:\Users\Здравка\Desktop\Homework>rd Skillo
+
+C:\Users\Здравка\Desktop\Homework>cd..
+
+C:\Users\Здравка\Desktop>rd Homework
+
+C:\Users\Здравка\Desktop>
+
