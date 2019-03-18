@@ -1,0 +1,320 @@
+Microsoft Windows [Version 10.0.17134.523]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\R&R consult LTD>cd desktop
+
+C:\Users\R&R consult LTD\Desktop>cd skillo course
+
+C:\Users\R&R consult LTD\Desktop\Skillo course>mkdir homeworks
+
+C:\Users\R&R consult LTD\Desktop\Skillo course>cd homeworks
+
+C:\Users\R&R consult LTD\Desktop\Skillo course\homeworks>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\R&R consult LTD\Desktop\Skillo course\homeworks>cd ..
+
+C:\Users\R&R consult LTD\Desktop\Skillo course>cd ..
+
+C:\Users\R&R consult LTD\Desktop>cd Skillo1
+
+C:\Users\R&R consult LTD\Desktop\Skillo1>cd SoftwareTesting2201
+
+C:\Users\R&R consult LTD\Desktop\Skillo1\SoftwareTesting2201>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    Rumen Maslarski/~$Test.docx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\R&R consult LTD\Desktop\Skillo1\SoftwareTesting2201>git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+C:\Users\R&R consult LTD\Desktop\Skillo1\SoftwareTesting2201>git add .
+
+C:\Users\R&R consult LTD\Desktop\Skillo1\SoftwareTesting2201>git commit -m "Lesson III homework"
+[master c5ee9ce] Lesson III homework
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Rumen Maslarski/Lesson III_Test CaseHomework.docx
+ create mode 100644 Rumen Maslarski/Lesson III_Test suite Homework.docx
+ delete mode 100644 Rumen Maslarski/~$Test.docx
+
+C:\Users\R&R consult LTD\Desktop\Skillo1\SoftwareTesting2201>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\R&R consult LTD\Desktop\Skillo1\SoftwareTesting2201>git pull
+remote: Enumerating objects: 250, done.
+remote: Counting objects: 100% (250/250), done.
+remote: Compressing objects: 100% (142/142), done.
+remote: Total 450 (delta 107), reused 217 (delta 81), pack-reused 200
+Receiving objects: 100% (450/450), 9.05 MiB | 271.00 KiB/s, done.
+Resolving deltas: 100% (153/153), completed with 4 local objects.
+From https://github.com/martanasov/SoftwareTesting2201
+   746bed6..04b728b  master     -> origin/master
+Removing stoichkov/cskaultras.txt
+Removing metodi/Test 2124.txt
+Removing Tedi/Test.txt
+Removing Rumen Maslarski/Test.docx
+Removing Plamen Debreliev/Test.txt
+Removing Nikolay Nikolov/Test.txt
+Removing Martin Atanasov/TestFile.rtf
+Removing Lyubo/Test.txt
+Removing Julieta Ivanova/Test.txt
+Removing Ivan Mitrev/Test.txt
+Removing .DS_Store
+Merge made by the 'recursive' strategy.
+ .DS_Store                                          |   Bin 6148 -> 0 bytes
+ Domashno-VY/TC0002.docx                            |   Bin 0 -> 16954 bytes
+ Domashno-VY/TC001.docx                             |   Bin 0 -> 20963 bytes
+ Domashno-VY/TC002.docx                             |   Bin 0 -> 16958 bytes
+ Domashno-VY/TC003.docx                             |   Bin 0 -> 17238 bytes
+ Domashno-VY/TC004.docx                             |   Bin 0 -> 15956 bytes
+ Domashno-VY/TC005.docx                             |   Bin 0 -> 16967 bytes
+ Domashno-VY/TC006.docx                             |   Bin 0 -> 16998 bytes
+ Domashno-VY/Test Case Template 1.docx              |   Bin 0 -> 20856 bytes
+ Domashno-VY/~$TC005.docx                           |   Bin 0 -> 162 bytes
+ .../TC0001 Test Case Open Login Form.xlsx          |   Bin 0 -> 10375 bytes
+ ...Test Case Open Login Form invalid Username.xlsx |   Bin 0 -> 10540 bytes
+ .../TC0003  Open Login form invalid Password.xlsx  |   Bin 0 -> 10552 bytes
+ ...with invalid Username and invalid Password.xlsx |   Bin 0 -> 10542 bytes
+ ...t Case Open Login Form with Empty Username.xlsx |   Bin 0 -> 10579 bytes
+ ...t Case Open Login Form with Empty Password.xlsx |   Bin 0 -> 10590 bytes
+ ...orm with Empty Username and Empty Password.xlsx |   Bin 0 -> 10418 bytes
+ ...TC0008 Test Case Button Create transaction.xlsx |   Bin 0 -> 10245 bytes
+ ...e Button Confirmation dialog box Button OK.xlsx |   Bin 0 -> 10436 bytes
+ ...tton Confirmation dialog box Button Cancel.xlsx |   Bin 0 -> 10398 bytes
+ ...C0012 Test Case Button Check dropdown list.xlsx |   Bin 0 -> 10421 bytes
+ .../TC0013 Test Case Button  Add New Card.xlsx     |   Bin 0 -> 10468 bytes
+ ...nd should dialog box ask requests requests.xlsx |   Bin 0 -> 10480 bytes
+ ...TC0015 Test Case Button Logout and push OK.xlsx |   Bin 0 -> 10505 bytes
+ ...16 Test Case Button Logout and push Cancel.xlsx |   Bin 0 -> 10455 bytes
+ .../Test Case 30.01/Test suite Georgi Djenkov.docx |   Bin 0 -> 12887 bytes
+ Ivan Mitrev/Test.txt => HM/1/asdsad.txt            |     0
+ HM/1/vy.txt                                        |     1 +
+ .../Test.txt => Ivan Mitrev/new/chelsea.txt        |     0
+ Julieta Ivanova/1/CMD.docx                         |   Bin 0 -> 13799 bytes
+ Julieta Ivanova/1/New Text Document.txt            |    88 +
+ Lyubo/Test.txt                                     |     1 -
+ Lyubo/homework/Test Cases/TC1 Open Login Page.xlsx |   Bin 0 -> 12707 bytes
+ .../TC10 Login and redirecting to homepage.xlsx    |   Bin 0 -> 12885 bytes
+ .../TC11 create transaction confirmation.xlsx      |   Bin 0 -> 12688 bytes
+ .../Test Cases/TC12 Confirming transaction.xlsx    |   Bin 0 -> 12687 bytes
+ .../Test Cases/TC13 Cancelling transaction.xlsx    |   Bin 0 -> 12690 bytes
+ .../Test Cases/TC14 Add new card button.xlsx       |   Bin 0 -> 12695 bytes
+ .../Test Cases/TC15 Card Dropdown Menu.xlsx        |   Bin 0 -> 12721 bytes
+ Lyubo/homework/Test Cases/TC16 Logout Button.xlsx  |   Bin 0 -> 12696 bytes
+ Lyubo/homework/Test Cases/TC17 Logging Out.xlsx    |   Bin 0 -> 12702 bytes
+ .../Test Cases/TC18 Logout Cancellation.xlsx       |   Bin 0 -> 12700 bytes
+ .../Test Cases/TC2 Providing Wrong Username.xlsx   |   Bin 0 -> 12823 bytes
+ .../Test Cases/TC3 Provide Wrong Password.xlsx     |   Bin 0 -> 12829 bytes
+ .../TC4 Provide Wrong username and password.xlsx   |   Bin 0 -> 12841 bytes
+ ...TC5 Provide right username, blank password.xlsx |   Bin 0 -> 12818 bytes
+ ...TC6 Provide right password, blank username.xlsx |   Bin 0 -> 12816 bytes
+ .../TC7 Leave username and password blank.xlsx     |   Bin 0 -> 12794 bytes
+ .../TC8 wrong username and blank password.xlsx     |   Bin 0 -> 12834 bytes
+ .../TC9 Blank username and wrong password.xlsx     |   Bin 0 -> 12834 bytes
+ Lyubo/homework/Test Suite 1.docx                   |   Bin 0 -> 14301 bytes
+ Mariana H/Test Case 4.docx                         |   Bin 0 -> 11367 bytes
+ Mariana H/Test Case 5.docx                         |   Bin 0 -> 11487 bytes
+ Martin Atanasov/TestFile.rtf                       |     8 -
+ .../1 - Lecture 1 - Exercises.pdf                  |   Bin 0 -> 507668 bytes
+ .../cmd comands i used to do my home work.txt      |   223 +
+ .../All Test Cases 1 to 11.docx                    |   Bin 0 -> 25987 bytes
+ .../Negative/negative cases.docx                   |   Bin 0 -> 16929 bytes
+ .../Positive/positive cases.docx                   |   Bin 0 -> 21594 bytes
+ .../Homework from Lecture 3/Test suite.docx        |   Bin 0 -> 14141 bytes
+ Ne/Cheti.txt                                       |     1 +
+ Nikolay Nikolov/Homework Git Bash.txt              |    54 +
+ Nikolay Nikolov/Test.txt                           |     1 -
+ Nikolay Nikolov/TestCase/TC001.docx                |   Bin 0 -> 16983 bytes
+ Nikolay Nikolov/TestCase/TC002.docx                |   Bin 0 -> 18172 bytes
+ Nikolay Nikolov/TestCase/TC003.docx                |   Bin 0 -> 18392 bytes
+ Nikolay Nikolov/TestCase/TC004.docx                |   Bin 0 -> 17098 bytes
+ Nikolay Nikolov/TestCase/TC005.docx                |   Bin 0 -> 17090 bytes
+ Nikolay Nikolov/TestCase/TC006.docx                |   Bin 0 -> 18174 bytes
+ Nikolay Nikolov/TestCase/TC007.docx                |   Bin 0 -> 17235 bytes
+ Nikolay Nikolov/TestCase/TC008.docx                |   Bin 0 -> 18251 bytes
+ Nikolay Nikolov/TestCase/TC009.docx                |   Bin 0 -> 17030 bytes
+ Nikolay Nikolov/TestCase/~$TC008.docx              |   Bin 0 -> 162 bytes
+ Plamen Debreliev/{Test.txt => Proba 2.txt}         |     0
+ .../Test 2124.txt => Plamen Debreliev/Test 89.txt  |     0
+ .../cskaultras.txt => Plamen Debreliev/Test22.txt  |     0
+ Rumen Maslarski/Test.docx                          |   Bin 11494 -> 0 bytes
+ SoftwareTesting2201                                |     1 +
+ Tedi/Test.txt                                      |     1 -
+ Test case 2.numbers                                |   Bin 0 -> 794735 bytes
+ Theodora Kondova/SoftwareTesting2201               |     1 +
+ .../Functional Specification.rtf                   | 28908 +++++++++++++++++++
+ .../Test Case Theodora_Kondova.docx                |   Bin 0 -> 25489 bytes
+ .../Test suite template.docx                       |   Bin 0 -> 12512 bytes
+ Theodora Kondova/cmd commands.txt                  |   300 +
+ Todor Koev/Toci.txt                                |     0
+ Todor Koev/toci                                    |     1 +
+ Vladimir Yolov/HOMEWORK/123.txt                    |     2 +
+ Vladimir Yolov/test.txt                            |     1 +
+ Zdravka Mollova/Homework.txt                       |    23 +
+ Zdravka Mollova/Proba/Proba.txt                    |     0
+ .../Test Cases/Negative/Test Case 002.docx         |   Bin 0 -> 18719 bytes
+ .../Test Cases/Negative/Test Case 003.docx         |   Bin 0 -> 18715 bytes
+ .../Test Cases/Positive/Test Case 001.docx         |   Bin 0 -> 17263 bytes
+ .../Test Cases/Positive/Test Case 004.docx         |   Bin 0 -> 18540 bytes
+ .../Test Cases/Positive/Test Case 005.docx         |   Bin 0 -> 18518 bytes
+ .../Test Cases/Positive/Test Case 006.docx         |   Bin 0 -> 18582 bytes
+ .../Test Cases/Positive/Test Case 007.docx         |   Bin 0 -> 18597 bytes
+ .../Test Cases/Positive/Test Case 008.docx         |   Bin 0 -> 18549 bytes
+ .../Test Cases/Positive/Test Case 009.docx         |   Bin 0 -> 18628 bytes
+ .../Test Cases/Positive/Test Case 010.docx         |   Bin 0 -> 18674 bytes
+ boyan1606/homework/Test Case 01 (4).odt            |   Bin 0 -> 14951 bytes
+ boyan1606/homework/Test Case 03 (4).odt            |   Bin 0 -> 11202 bytes
+ hello/da/ne/saturday.txt                           |     0
+ stoichkov/Stoichkov Test Cases/Test Case 01.docx   |   Bin 0 -> 14992 bytes
+ stoichkov/Stoichkov Test Cases/Test Case 04.docx   |   Bin 0 -> 14948 bytes
+ stoichkov/Stoichkov Test Cases/Test Case 05.docx   |   Bin 0 -> 14911 bytes
+ stoichkov/Stoichkov Test Cases/Test Case 06.docx   |   Bin 0 -> 15110 bytes
+ stoichkov/Stoichkov Test Cases/Test Case 07.docx   |   Bin 0 -> 18487 bytes
+ stoichkov/Stoichkov Test Cases/Test Case 08.docx   |   Bin 0 -> 18413 bytes
+ stoichkov/Stoichkov Test Cases/Test Case 09.docx   |   Bin 0 -> 18682 bytes
+ stoichkov/Stoichkov Test Cases/Test Case 11.docx   |   Bin 0 -> 18635 bytes
+ stoichkov/Stoichkov Test Cases/Test Case 12.docx   |   Bin 0 -> 18589 bytes
+ stoichkov/Stoichkov Test Cases/Test Case 13.docx   |   Bin 0 -> 18456 bytes
+ stoichkov/check.txt                                |     7 +
+ 115 files changed, 29611 insertions(+), 11 deletions(-)
+ delete mode 100644 .DS_Store
+ create mode 100644 Domashno-VY/TC0002.docx
+ create mode 100644 Domashno-VY/TC001.docx
+ create mode 100644 Domashno-VY/TC002.docx
+ create mode 100644 Domashno-VY/TC003.docx
+ create mode 100644 Domashno-VY/TC004.docx
+ create mode 100644 Domashno-VY/TC005.docx
+ create mode 100644 Domashno-VY/TC006.docx
+ create mode 100644 Domashno-VY/Test Case Template 1.docx
+ create mode 100644 Domashno-VY/~$TC005.docx
+ create mode 100755 GeorgiDjenkov/Test Case 30.01/TC0001 Test Case Open Login Form.xlsx
+ create mode 100755 GeorgiDjenkov/Test Case 30.01/TC0002 Test Case Open Login Form invalid Username.xlsx
+ create mode 100755 GeorgiDjenkov/Test Case 30.01/TC0003  Open Login form invalid Password.xlsx
+ create mode 100755 GeorgiDjenkov/Test Case 30.01/TC0004 Test Case Open Login Form with invalid Username and invalid Password.xlsx
+ create mode 100755 GeorgiDjenkov/Test Case 30.01/TC0005 Test Case Open Login Form with Empty Username.xlsx
+ create mode 100755 GeorgiDjenkov/Test Case 30.01/TC0006 Test Case Open Login Form with Empty Password.xlsx
+ create mode 100755 GeorgiDjenkov/Test Case 30.01/TC0007 Test Case Open Login Form with Empty Username and Empty Password.xlsx
+ create mode 100755 GeorgiDjenkov/Test Case 30.01/TC0008 Test Case Button Create transaction.xlsx
+ create mode 100755 GeorgiDjenkov/Test Case 30.01/TC0009 Test Case Button Confirmation dialog box Button OK.xlsx
+ create mode 100755 GeorgiDjenkov/Test Case 30.01/TC0011 Test Case Button Confirmation dialog box Button Cancel.xlsx
+ create mode 100755 GeorgiDjenkov/Test Case 30.01/TC0012 Test Case Button Check dropdown list.xlsx
+ create mode 100755 GeorgiDjenkov/Test Case 30.01/TC0013 Test Case Button  Add New Card.xlsx
+ create mode 100755 GeorgiDjenkov/Test Case 30.01/TC0014 Test Case Button  Button Logout and should dialog box ask requests requests.xlsx
+ create mode 100755 GeorgiDjenkov/Test Case 30.01/TC0015 Test Case Button Logout and push OK.xlsx
+ create mode 100755 GeorgiDjenkov/Test Case 30.01/TC0016 Test Case Button Logout and push Cancel.xlsx
+ create mode 100755 GeorgiDjenkov/Test Case 30.01/Test suite Georgi Djenkov.docx
+ rename Ivan Mitrev/Test.txt => HM/1/asdsad.txt (100%)
+ create mode 100644 HM/1/vy.txt
+ rename Julieta Ivanova/Test.txt => Ivan Mitrev/new/chelsea.txt (100%)
+ create mode 100644 Julieta Ivanova/1/CMD.docx
+ create mode 100644 Julieta Ivanova/1/New Text Document.txt
+ delete mode 100644 Lyubo/Test.txt
+ create mode 100644 Lyubo/homework/Test Cases/TC1 Open Login Page.xlsx
+ create mode 100644 Lyubo/homework/Test Cases/TC10 Login and redirecting to homepage.xlsx
+ create mode 100644 Lyubo/homework/Test Cases/TC11 create transaction confirmation.xlsx
+ create mode 100644 Lyubo/homework/Test Cases/TC12 Confirming transaction.xlsx
+ create mode 100644 Lyubo/homework/Test Cases/TC13 Cancelling transaction.xlsx
+ create mode 100644 Lyubo/homework/Test Cases/TC14 Add new card button.xlsx
+ create mode 100644 Lyubo/homework/Test Cases/TC15 Card Dropdown Menu.xlsx
+ create mode 100644 Lyubo/homework/Test Cases/TC16 Logout Button.xlsx
+ create mode 100644 Lyubo/homework/Test Cases/TC17 Logging Out.xlsx
+ create mode 100644 Lyubo/homework/Test Cases/TC18 Logout Cancellation.xlsx
+ create mode 100644 Lyubo/homework/Test Cases/TC2 Providing Wrong Username.xlsx
+ create mode 100644 Lyubo/homework/Test Cases/TC3 Provide Wrong Password.xlsx
+ create mode 100644 Lyubo/homework/Test Cases/TC4 Provide Wrong username and password.xlsx
+ create mode 100644 Lyubo/homework/Test Cases/TC5 Provide right username, blank password.xlsx
+ create mode 100644 Lyubo/homework/Test Cases/TC6 Provide right password, blank username.xlsx
+ create mode 100644 Lyubo/homework/Test Cases/TC7 Leave username and password blank.xlsx
+ create mode 100644 Lyubo/homework/Test Cases/TC8 wrong username and blank password.xlsx
+ create mode 100644 Lyubo/homework/Test Cases/TC9 Blank username and wrong password.xlsx
+ create mode 100644 Lyubo/homework/Test Suite 1.docx
+ create mode 100644 Mariana H/Test Case 4.docx
+ create mode 100644 Mariana H/Test Case 5.docx
+ delete mode 100644 Martin Atanasov/TestFile.rtf
+ create mode 100644 Metodi Paskalev/Homework from Lecture 1/1 - Lecture 1 - Exercises.pdf
+ create mode 100644 Metodi Paskalev/Homework from Lecture 2/cmd comands i used to do my home work.txt
+ create mode 100644 Metodi Paskalev/Homework from Lecture 3/All Test Cases 1 to 11.docx
+ create mode 100644 Metodi Paskalev/Homework from Lecture 3/Negative/negative cases.docx
+ create mode 100644 Metodi Paskalev/Homework from Lecture 3/Positive/positive cases.docx
+ create mode 100644 Metodi Paskalev/Homework from Lecture 3/Test suite.docx
+ create mode 100644 Ne/Cheti.txt
+ create mode 100644 Nikolay Nikolov/Homework Git Bash.txt
+ delete mode 100644 Nikolay Nikolov/Test.txt
+ create mode 100644 Nikolay Nikolov/TestCase/TC001.docx
+ create mode 100644 Nikolay Nikolov/TestCase/TC002.docx
+ create mode 100644 Nikolay Nikolov/TestCase/TC003.docx
+ create mode 100644 Nikolay Nikolov/TestCase/TC004.docx
+ create mode 100644 Nikolay Nikolov/TestCase/TC005.docx
+ create mode 100644 Nikolay Nikolov/TestCase/TC006.docx
+ create mode 100644 Nikolay Nikolov/TestCase/TC007.docx
+ create mode 100644 Nikolay Nikolov/TestCase/TC008.docx
+ create mode 100644 Nikolay Nikolov/TestCase/TC009.docx
+ create mode 100644 Nikolay Nikolov/TestCase/~$TC008.docx
+ rename Plamen Debreliev/{Test.txt => Proba 2.txt} (100%)
+ rename metodi/Test 2124.txt => Plamen Debreliev/Test 89.txt (100%)
+ rename stoichkov/cskaultras.txt => Plamen Debreliev/Test22.txt (100%)
+ delete mode 100644 Rumen Maslarski/Test.docx
+ create mode 160000 SoftwareTesting2201
+ delete mode 100644 Tedi/Test.txt
+ create mode 100644 Test case 2.numbers
+ create mode 160000 Theodora Kondova/SoftwareTesting2201
+ create mode 100644 Theodora Kondova/Test Case&Test Suite HW/Functional Specification.rtf
+ create mode 100644 Theodora Kondova/Test Case&Test Suite HW/Test Case Theodora_Kondova.docx
+ create mode 100644 Theodora Kondova/Test Case&Test Suite HW/Test suite template.docx
+ create mode 100644 Theodora Kondova/cmd commands.txt
+ create mode 100644 Todor Koev/Toci.txt
+ create mode 160000 Todor Koev/toci
+ create mode 100644 Vladimir Yolov/HOMEWORK/123.txt
+ create mode 100644 Zdravka Mollova/Homework.txt
+ create mode 100644 Zdravka Mollova/Proba/Proba.txt
+ create mode 100644 Zdravka Mollova/Test Cases/Negative/Test Case 002.docx
+ create mode 100644 Zdravka Mollova/Test Cases/Negative/Test Case 003.docx
+ create mode 100644 Zdravka Mollova/Test Cases/Positive/Test Case 001.docx
+ create mode 100644 Zdravka Mollova/Test Cases/Positive/Test Case 004.docx
+ create mode 100644 Zdravka Mollova/Test Cases/Positive/Test Case 005.docx
+ create mode 100644 Zdravka Mollova/Test Cases/Positive/Test Case 006.docx
+ create mode 100644 Zdravka Mollova/Test Cases/Positive/Test Case 007.docx
+ create mode 100644 Zdravka Mollova/Test Cases/Positive/Test Case 008.docx
+ create mode 100644 Zdravka Mollova/Test Cases/Positive/Test Case 009.docx
+ create mode 100644 Zdravka Mollova/Test Cases/Positive/Test Case 010.docx
+ create mode 100644 boyan1606/homework/Test Case 01 (4).odt
+ create mode 100644 boyan1606/homework/Test Case 03 (4).odt
+ create mode 100644 hello/da/ne/saturday.txt
+ create mode 100644 stoichkov/Stoichkov Test Cases/Test Case 01.docx
+ create mode 100644 stoichkov/Stoichkov Test Cases/Test Case 04.docx
+ create mode 100644 stoichkov/Stoichkov Test Cases/Test Case 05.docx
+ create mode 100644 stoichkov/Stoichkov Test Cases/Test Case 06.docx
+ create mode 100644 stoichkov/Stoichkov Test Cases/Test Case 07.docx
+ create mode 100644 stoichkov/Stoichkov Test Cases/Test Case 08.docx
+ create mode 100644 stoichkov/Stoichkov Test Cases/Test Case 09.docx
+ create mode 100644 stoichkov/Stoichkov Test Cases/Test Case 11.docx
+ create mode 100644 stoichkov/Stoichkov Test Cases/Test Case 12.docx
+ create mode 100644 stoichkov/Stoichkov Test Cases/Test Case 13.docx
+ create mode 100644 stoichkov/check.txt
+
+C:\Users\R&R consult LTD\Desktop\Skillo1\SoftwareTesting2201>git push
+Username for 'https://github.com': maslarski
+Password for 'https://maslarski@github.com':
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 29.22 KiB | 5.84 MiB/s, done.
+Total 8 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+To https://github.com/martanasov/SoftwareTesting2201.git
+   04b728b..9cb2cfd  master -> master
+
+C:\Users\R&R consult LTD\Desktop\Skillo1\SoftwareTesting2201>
